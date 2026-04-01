@@ -67,6 +67,7 @@
 | Image | **NSD (2021)** | 7 subjects viewing ~70,000 natural images (~1.5–2TB, application required) | [website](https://registry.opendata.aws/nsd/) |
 |       | **BOLD5000 (2021)** | 4 subjects viewing ~5,000 COCO/ImageNet images (~150–200GB) | [website](https://bold5000-dataset.github.io/website/download.html) |
 |       | **GOD (2019)** | 5 subjects viewing object categories (~5–10GB) | [website](https://github.com/KamitaniLab/GenericObjectDecoding) |
+|       | **THINGS fMRI1** | 3 subjects, 8,640 object images event-related fMRI dataset | [website](https://things-initiative.org/) |
 |       | **vim-1 (2011)** | 1–2 subjects viewing thousands of natural images (~10GB, application required) | [website](https://crcns.org/data-sets/vc/vim-1/about-vim-1) |
 | Video | **Algonauts (2021/2023)** | 10–30 subjects watching short natural videos (~50–150GB) | [website](https://algonautsproject.com/index.html) |
 |       | **Human Connectome Project** | 1200 subjects multi-task and resting-state fMRI (~80–100TB) | [website](https://hub.datalad.org/hcp-openaccess/hcp1200-functional-connectivity) |
@@ -74,8 +75,11 @@
 |       | **BOLD Moments Dataset** | 10 subjects watching 1,102 short videos (~88GB) | [website](https://github.com/blahner/BOLDMomentsDataset) |
 |       | **vim-2 (2014)** | 3 subjects watching natural videos (~50–100GB, application required) | [website](https://crcns.org/data-sets/vc/vim-2/about-vim-2) |
 |       | **NFED (2024)** | 5 subjects watching ~1320 facial expression videos (~176GB) | [website](https://openneuro.org/datasets/ds005047) |
+|   3D  | **fMRI-Shape** | 14 subjects viewing 1600+ 3D objects | [website](https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape) |
+|   3D  | **fMRI-Objaverse** | 5 subjects viewing 3,142 3D objects across 117 categories | [website](https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse) |
 | Audio | **Narratives (2011–2018)** | 345 subjects listening to 28 spoken stories (~132GB) | [website](https://openneuro.org/datasets/ds002345) |
 |       | **Nature Story Listening (2016)** | 11 subjects listening to long-form stories | [website](https://gin.g-node.org/gallantlab/story_listening) |
+| Audio/Language | **MOUS-fMRI** | 200+ subjects reading or listening to sentences (well-formed vs scrambled) | [website](https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236) |
 | Language | **Semantic Listening vs Reading Dataset** | fMRI during reading and listening to natural stories | [website](https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri) |
 
 
@@ -93,11 +97,17 @@
 | Clinical | **TUAB** | 2000+ subjects, 1000+ hours EEG (application required) | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
 | Image | **THINGS-EEG1 (2022)** | 50 subjects viewing object images (~40GB) | [website](https://things-initiative.org/) |
 |       | **THINGS-EEG2 (2025)** | 10 subjects viewing 16,740 images | [website](https://osf.io/user/6jt4f) |
+|       | **Kaneshiro2015** | 10 subjects EEG responses to image stimuli | [website](https://purl.stanford.edu/bq914sc3730) |
+|       | **Grootswagers2019** | 16 subjects viewing 200 images | [website](https://osf.io/a7knv/overview) |
 |       | **ImageNet-EEG** | 16 subjects with 87,850 EEG-image pairs (~18GB) | [website](https://github.com/Promise-Z5Q2SQ/EEG-ImageNet-Dataset) |
 | Video | **MAHNOB-HCI** | 30 subjects watching emotional videos (partially unavailable) | [website](https://mahnob-db.eu) |
+|       | **SEED-DV** | 15 subjects watching emotional videos with EEG recordings | [website](https://bcmi.sjtu.edu.cn/home/seed/index.html) |
 | Text | **ZuCo (2018)** | 12 subjects reading text with EEG + eye-tracking (~5–10GB) | [website](https://osf.io/q3zws) |
 | Speech/Text | **Inner Speech Dataset** | 10 subjects (~9 hours EEG) for imagined speech decoding | [website](https://github.com/N-Nieto/Inner_Speech_Dataset) |
 | Language | **ChineseEEG-2** | 12 subjects performing Chinese reading tasks (~100GB) | [website](https://github.com/ncclab-sustech/ChineseEEG-2) |
+|          | **Broderick2018** | 19 subjects listening to natural speech | [website](https://datadryad.org/dataset/doi:10.5061/dryad.070jc) |
+|          | **Chisco** | >20k high-density EEG samples for imagined speech | [website](https://github.com/zhangzihan-is-good/Chisco) |
+|          | **Brennan-Hale2019** | 33 subjects listening to English speech | [website](https://deepblue.lib.umich.edu/data/concern/data_sets/bn999738r) |
 | Imagined Speech | **BCIC2020-3** | 15 subjects, 64-channel EEG, 5-class imagined speech | [website](https://www.kaggle.com/datasets/abdulkareembageri/imagined-speech-eeg-signal-bci2020) |
 | Speech | **KARA ONE** | 12 subjects imagined speech dataset (~24GB) | [website](https://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html) |
 | Event | **TUEV** | ~150 hours EEG with event annotations | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
@@ -116,6 +126,9 @@
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
 | Multi-task | **Cam-CAN MEG** | Lifespan dataset with hundreds of subjects (application required) | [website](https://camcan-archive.mrc-cbu.cam.ac.uk) |
+| Image | **THINGS MEG1** | 4 subjects, 22,248 image trials MEG dataset | [website](https://things-initiative.org/) |
+| Language | **MOUS-MEG** | 200+ subjects reading or listening to sentences | [website](https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236) |
+| Language | **MEG-MASC** | 27 subjects listening to speech stimuli | [website](https://osf.io/ag3kj/overview) |
 | Clinical | **OMEGA** | 444 controls + 200 patients (>150 hours MEG) | [website](https://www.mcgill.ca/bic/neuroinformatics/omega) |
 | Multi-task | **HCP-MEG** | MEG subset of HCP with multiple tasks | [website](https://neuroimage.usc.edu/brainstorm/Tutorials/HCP-MEG) |
 
@@ -125,6 +138,15 @@
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
 | Multi-task | **CRCNS ECoG** | 21 epilepsy patients performing audiovisual tasks (~8GB) | [website](https://deepblue.lib.umich.edu/data/concern/data_sets/4f16c309z) |
+| Audio | **Metzger2023** | Single-subject speech-related ECoG dataset | [website](https://zenodo.org/records/8200782) |
+
+
+### SEEG Datasets
+| Language | **Verwoert2022** | 54–127 epilepsy patients performing reading tasks | [website](https://osf.io/nrgx6/overview) |
+
+
+### MEA Datasets
+| Audio | **Willett2023** | Neural recordings for speech prosthesis with 12,100 spoken sentences | [website](https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czpq) |
 
 
 ### Multimodal Datasets
